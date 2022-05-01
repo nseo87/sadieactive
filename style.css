@@ -9,7 +9,7 @@ nav{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding-top: 30px;
+   padding-top: 0px;
 }
 
 .header__title{
@@ -186,12 +186,13 @@ font-size: 16px;
 .circle{
    width: 56px;
    height: 55px;
-   border-radius: 70%;
+   border-radius: 60%;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    background-color: white;
    text-align: center;
    margin-top: 10px;
    margin-right: 10px;
+
    
 }
 
@@ -215,4 +216,11 @@ font-size: 16px;
    padding-top: 20px;
    margin-left: 16px;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.affirmation__Widget{
+   background: rgba(255, 255, 255, 0.95);
+   width: auto;
+   height: 155px;
+   padding-bottom: 50%;
 }
