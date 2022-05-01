@@ -1,5 +1,6 @@
 body{
    background-image: linear-gradient(to right, #F23869, #3621BF);
+   padding-bottom: 20%;
 }
 
 html{
@@ -212,15 +213,35 @@ font-size: 16px;
 }
 
 #Spotify__widget{
-
    padding-top: 20px;
    margin-left: 16px;
-   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+   margin-right: 16px;
+   /* box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3); */
 }
 
 .affirmation__Widget{
+   display: flex;
    background: rgba(255, 255, 255, 0.95);
-   width: auto;
-   height: 155px;
-   padding-bottom: 50%;
+   width: 162;
+   height: 163px;
+   margin-left: 16px;
+   margin-right: 16px;
+   margin-top: 16px;
+   padding-bottom: 20%;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+   border-radius: 4px;
+
+}
+
+ .fire__icon{
+    margin-top: 10px;
+    margin-left: 90px;
+ }
+
+.affirmation__Text{
+   display: flex;
+   font-family: "Poppins";
+   text-align: center;
+   margin-top: 180px;
+   margin-left: -220px;
 }
