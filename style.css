@@ -1,6 +1,6 @@
 body{
    background-image: linear-gradient(to right, #F23869, #3621BF);
-   padding-bottom: 20%;
+   padding-bottom: 45%;
 }
 
 html{
@@ -33,11 +33,11 @@ p, .header__update{
    bottom: 0;
    left: 0;
    width:100%;
-   height: 50px;
+   height: 70px;
  }
 
 .home__button, .workout__button, .camera__icon, .settings__icon{
-   padding-top: 3%;
+   padding-top: 2%;
 }
 
 .workoutlog__container{
@@ -135,7 +135,6 @@ font-size: 16px;
 
 #border{
    display: flex;
-   justify-items: center;
    border-top: solid #dedede;
    width: 300px;
    height: 0px;
@@ -143,22 +142,19 @@ font-size: 16px;
    top: 619px;
 }
 
-#ellipses{
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   margin-right: 15px;
+.ellipses__widget1{
+   margin-left: 280px;
    margin-top: -38px;
 }
 
 .photo__widgetContainer{
-   display: flex;
+   display: flexbox;
    margin-top: 20px;
    margin-left: 16px;
    margin-right: 16px;
    background: rgba(255, 255, 255, 0.95);
    width: auto;
-   height: 155px;
+   height: 143px;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    border-radius: 4px;
 
@@ -166,6 +162,8 @@ font-size: 16px;
 
 .widget__Text{
    line-height: normal;
+   margin-top: -150px;
+   margin-left: 6.5em;
 }
 .widget__weekLabel{
    font-family: "Poppins";
@@ -185,14 +183,15 @@ font-size: 16px;
 }
 
 .circle{
+   display: flexbox;
    width: 56px;
    height: 55px;
    border-radius: 60%;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    background-color: white;
    text-align: center;
-   margin-top: 10px;
-   margin-right: 10px;
+   margin-top: -7em;
+   margin-left: 270px;
 
    
 }
@@ -212,6 +211,11 @@ font-size: 16px;
    margin-top: -20px;
 }
 
+.ellipses__widget2{
+   margin-top: 3.5em;
+   margin-left: 19em;
+}
+
 #Spotify__widget{
    padding-top: 20px;
    margin-left: 16px;
@@ -219,33 +223,51 @@ font-size: 16px;
    /* box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3); */
 }
 
-.affirmation__Widget{
-   display: flex;
+.widget__Container{
+   display: flexbox;
    background: rgba(255, 255, 255, 0.95);
-   width: 162;
-   height: 163px;
+   width: 165px;
+   height: auto;
    margin-left: 16px;
    margin-right: 16px;
    margin-top: 16px;
-   padding-bottom: 20%;
+    padding-top: 16px;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    border-radius: 4px;
 
 }
 
- .fire__icon{
-    margin-top: 10px;
-    margin-left: 90px;
- }
-
-.affirmation__Text{
-   display: flex;
-   font-family: "Poppins";
-   text-align: center;
-   margin-top: 180px;
-   margin-left: -220px;
+.fire__icon{
+margin-left: 3em;
 }
 
-@media only screen and (max-device-width: 1200px) {
-  
- }
+
+.affirmation__Text{
+   text-align: center;
+   font-family: "Poppins";
+   font-size: 16px;
+   margin-top: -1.1em;
+
+}
+
+.ellipses__widget3{
+   margin-top: 8px;
+   margin-left: 8em;
+}
+
+.add__widget{
+   display: flexbox;
+   background: rgba(255, 255, 255, 0.75);
+   width: 163px;
+   height: 210px;
+   border-radius: 4px;
+   margin-top: -14.4em;
+   margin-left: 12.5em;
+}
+
+.widget__Text2{
+   font-family: "Poppins";
+   text-align: center;
+   font-weight: 400;
+}
+
