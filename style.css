@@ -1,0 +1,218 @@
+body{
+   background-image: linear-gradient(to right, #F23869, #3621BF);
+}
+
+html{
+   scroll-behavior: smooth;}
+
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.header__title{
+   line-height: 30%;
+   text-align: center;
+   font-family: "Poppins";
+   color:white;
+}
+
+p, .header__update{
+   font-size: 12px;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+   overflow: hidden;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width:100%;
+   height: 50px;
+ }
+
+.home__button, .workout__button, .camera__icon, .settings__icon{
+   padding-top: 3%;
+}
+
+.workoutlog__container{
+   display: flexbox;
+   font-family: "poppins";
+   background: rgba(255, 255, 255, 0.95);
+   text-align: center;
+   width: auto;
+   height: 635px;
+   margin-top: 50px;
+   margin-left: 16px;
+   margin-right: 16px;
+   border-radius: 4px;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.log__Title{
+   padding-top: 20px;
+}
+
+.workout__Logo{
+  margin-top: -85px;
+}
+
+.log__calendar__view{
+   line-height: 7px;
+}
+
+
+.log__calendar__view p{
+font-weight: 300;
+font-size: 16px;
+
+}
+
+.exercises{
+   display: flex;
+   flex-direction: row;
+   color:#3621BF;
+   text-align: left;
+   padding-top: 20px;
+}
+
+.time{
+   display: flex;
+   font-weight: 500;
+   flex-direction: row;
+   justify-content: flex-end;
+   padding-right: 20px;
+   margin-top: -62px;
+}
+
+.time p{
+   font-size: 16px;
+   color:#3621BF
+}
+
+.exercises h4{
+   padding-left: 25px;
+}
+
+.exercises p{
+   color: black;
+   font-size: 16px;
+   padding-top: 5px;
+   padding-left: 90px;
+}
+
+.workouts{
+   display: flex;
+   flex-direction: column;
+   line-height: 2px;
+   text-align: left;
+   padding-left: 25px;
+   color: #666666;
+}
+
+.workout__stats{
+   display: flex;
+   flex-direction: column;
+   color: #666666;
+   text-align: right;
+   margin-top: -323px;
+   line-height: 21px;
+   padding-right: 20px;
+}
+
+.workout__stats h5{
+   text-align: left;
+   margin-top: 10px;
+   margin-left: 22px;
+   color: #3621BF;
+   font-weight: 500;
+}
+
+#border{
+   display: flex;
+   justify-items: center;
+   border-top: solid #dedede;
+   width: 300px;
+   height: 0px;
+   margin-left: 30px;
+   top: 619px;
+}
+
+#ellipses{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 15px;
+   margin-top: -38px;
+}
+
+.photo__widgetContainer{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 16px;
+   margin-right: 16px;
+   background: rgba(255, 255, 255, 0.95);
+   width: auto;
+   height: 155px;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+   border-radius: 4px;
+
+}
+
+.widget__Text{
+   line-height: normal;
+}
+.widget__weekLabel{
+   font-family: "Poppins";
+   font-size: 14px;
+   font-weight: 300;
+   margin-top: 60px ;
+   margin-left: 15px;
+}
+
+.widget__Title{
+   font-family: 'Poppins';
+   font-size: 16px;
+   font-weight: 500;
+   color: #3621BF;
+   margin-top: -8px;
+   margin-left: 15px;
+}
+
+.circle{
+   width: 56px;
+   height: 55px;
+   border-radius: 70%;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+   background-color: white;
+   text-align: center;
+   margin-top: 10px;
+   margin-right: 10px;
+   
+}
+
+.month{
+   margin-top: 3px;
+   font-family: "Poppins";
+   font-size: 16px;
+   font-weight: 200;
+}
+
+.date__number{
+   font-family: "Poppins";
+   font-size: 18px;
+   font-weight: 700;
+   color: #3621BF;
+   margin-top: -20px;
+}
+
+#Spotify__widget{
+
+   padding-top: 20px;
+   margin-left: 16px;
+   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+}
