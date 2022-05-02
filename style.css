@@ -87,7 +87,7 @@ font-size: 16px;
    flex-direction: row;
    justify-content: flex-end;
    padding-right: 20px;
-   margin-top: -62px;
+   margin-top: -54px;
 }
 
 .time p{
@@ -275,12 +275,98 @@ margin-left: 3em;
    font-size: 25px;
 }
 
+.header{
+   font-family: "poppins";
+   color: white;
+   line-height: 10px;
+   text-align: center;
+}
+
+.week__Arrow{
+   margin-left: 18em;
+   margin-top: -5.3em;
+}
+
+.workout__LOG{
+   display: flexbox;
+   position: fixed;
+   background-color: white;
+   width: 100%;
+   height: 800px;
+   padding: 8.5px;
+   margin-left: -10px;
+   margin-top: 80px;
+   font-family: 'Poppins';
+
+}
+
+
+.gradient-text p{
+   font-family: 'Poppins';
+   font-size: 16px;
+   font-weight: 700;
+background: linear-gradient(180deg, #F23869, #3621BF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+   
+}
+
+.gradient-text h3, h4{
+   line-height: 7px;
+}
+
+.gradient-text h3{
+   font-weight: 500;
+   font-size: 20px;
+}
+
+.gradient-text h4{
+   font-weight: 200;
+}
+
+.set__counts{
+   font-size: 20px;
+   font-weight: 700;
+   background: linear-gradient(180deg, #F23869, #3621BF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-fill-color: transparent;
+   margin-left: 16em;
+   margin-top: -5.1em;
+}
+
+
 @keyframes  animecard {
    0%   {background-color: whitesmoke;}
    25%  {background-color: rgba(217, 7, 8, 0.81);}
    50%  {background-color: #F28F17;}
    100% {background-color: yellow;}
  }
+
+.border__Line1{
+   border: 1px solid #dedede;
+   margin-top: 6em;
+}
+
+.set__counts2{
+   font-size: 20px;
+   font-weight: 700;
+   background: linear-gradient(180deg, #F23869, #3621BF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-fill-color: transparent;
+   margin-left: 16em;
+   margin-top: -15.2em;
+}
+
+.border__Line2{
+   border: 1px solid #dedede;
+   margin-top: 18em;
+}
 
 @media only screen and (max-width: 320px){
   div{
