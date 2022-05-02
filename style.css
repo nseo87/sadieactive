@@ -234,8 +234,13 @@ font-size: 16px;
     padding-top: 16px;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    border-radius: 4px;
-
+   animation-name: animecard;
+   animation-duration: 3s;
+   animation-timing-function:ease-in;
+   animation-iteration-count: infinite;
 }
+
+
 
 .fire__icon{
 margin-left: 3em;
@@ -266,8 +271,21 @@ margin-left: 3em;
 }
 
 .widget__Text2{
-   font-family: "Poppins";
+   font-family: 'Poppins';
    text-align: center;
    font-weight: 400;
 }
 
+@keyframes  animecard {
+   0%   {background-color: whitesmoke;}
+   25%  {background-color: rgba(217, 7, 8, 0.81);}
+   50%  {background-color: #F28F17;}
+   100% {background-color: yellow;}
+ }
+
+@media only screen and (max-width: 320px){
+  div{
+   display: none;
+  }
+}
+ 
