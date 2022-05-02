@@ -235,7 +235,7 @@ font-size: 16px;
    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
    border-radius: 4px;
    animation-name: animecard;
-   animation-duration: 3s;
+   animation-duration: 4s;
    animation-timing-function:ease-in;
    animation-iteration-count: infinite;
 }
@@ -262,18 +262,17 @@ margin-left: 3em;
 
 .add__widget{
    display: flexbox;
-   background: rgba(255, 255, 255, 0.75);
-   width: 163px;
-   height: 210px;
    border-radius: 4px;
-   margin-top: -14.4em;
+   margin-top: -10em;
    margin-left: 12.5em;
 }
 
-.widget__Text2{
+.widget__Text2 p{
    font-family: 'Poppins';
    text-align: center;
-   font-weight: 400;
+   font-weight: 300;
+   color: white;
+   font-size: 25px;
 }
 
 @keyframes  animecard {
